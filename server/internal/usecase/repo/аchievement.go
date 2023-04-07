@@ -12,11 +12,3 @@ type Аchievement struct {
 func NewАchievement(pg *postgres.Postgres) *Аchievement {
 	return &Аchievement{postgres: pg}
 }
-
-func (a *Аchievement) CreateDescription(description string) error
-
-func (a *Аchievement) CreateIcon(icon []byte) error
-
-func (a *Аchievement) CreateHeader(header string) error
-
-func (a *Аchievement) GetById() entity.Аchievement
