@@ -22,6 +22,11 @@ const router = createRouter({
       path: "/ecp",
       name: "ecp",
       component: () => import("@/views/EcpView.vue")
+    },
+    {
+      path: "/procederes",
+      name: "procederes",
+      component: () => import("@/views/ProceduresView.vue")
     }
   ]
 })

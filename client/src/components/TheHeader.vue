@@ -1,14 +1,16 @@
 <template>
     <header class="header">
         <div class="header__content container">
-            <IconLogo class="header__logo logo"/>
+            <a href="/">
+                <IconLogo class="header__logo logo"/>
+            </a>
             <div class="header__nav nav">
-                <div class="header__nav-item">
-                    Торги
-                </div>
-                <div class="header__nav-item">
+                <a href="ecp" class="header__nav-item">
                     Услуги и сервисы
-                </div>
+                </a>
+                <a href="procederes" class="header__nav-item">
+                    Электронная подпись
+                </a>
             </div>
             <div class="header__side">
                 <div class="header__side-list">
