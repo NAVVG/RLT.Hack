@@ -11,8 +11,7 @@
                 <div class="popup__close"
                 @click="changeActiveModal"
                 >
-                    <span></span>
-                    <span></span>
+                    <img src="@/assets/icons/exit.svg">
                 </div>
             </div>
         </div>
@@ -87,17 +86,12 @@
         width: 16px;
         height: 14px;
     }
-    & span {
-        width: 17px;
-        display: block;
-        height: 1px;
-        background: #1e1c1c;
-        &:first-child {
-            transform: rotate(135deg) translate(1px, 0px);
-        }
-        &:last-child {
-            transform: rotate(-135deg);
-        }
+    & img {
+      width: 15px;
+      transition: .2s;
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 }
