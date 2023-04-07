@@ -6,18 +6,18 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 
-type Instance struct {
+type Postgres struct {
 	Pool *pgxpool.Pool
 }
 
-func New(url string) (*Instance, error) {
+func New(url string) (*Postgres, error) {
 	pool, err := pgxpool.New(context.Background(), url)
 	if err != nil {
 		return nil, err
 	}
 	defer pool.Close()
 
-	db := &Instance{
+	db := &Postgres{
 		Pool: pool,
 	}
 
