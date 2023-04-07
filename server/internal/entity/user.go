@@ -11,8 +11,8 @@ type User struct {
 	Password string
 }
 
-type Tokens struct {
+type Token struct {
 	User    int
 	Token   string
-	ExpDate time
+	ExpDate time.Time
 }
