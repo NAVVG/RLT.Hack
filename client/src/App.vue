@@ -1,5 +1,4 @@
 <template>
-  <RouterView/>
   <TheHeader
   @openReg="openRegModal"
   @openLog="openLogModal"
@@ -14,6 +13,7 @@
   >
     Авторизация
   </TheModal>
+  <RouterView/>
 </template>
 
 

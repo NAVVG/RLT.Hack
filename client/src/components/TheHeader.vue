@@ -51,6 +51,7 @@
 .header {
     padding: 20px 0px;
     border-bottom: 1px solid #969696;
+    background: rgb(154 174 211 / 40%);
 &__content {
     display: flex;
     align-items: center;
