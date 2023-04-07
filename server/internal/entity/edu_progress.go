@@ -1,7 +1,7 @@
 package entity
 
-type Deal struct {
-	UserId      int
+type EduProgress struct {
+	Id          int
 	EduStep     int
 	IsCompleted bool
 }

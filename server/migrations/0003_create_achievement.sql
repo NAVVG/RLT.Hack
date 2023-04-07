@@ -7,9 +7,11 @@ CREATE TABLE achievements(
 )
 
 CREATE TABLE achievement_progress(
-	ahcievment_id INTEGER,
+	achievement_id INTEGER,
 	user_id INTEGER,
-	PRIMARY KEY (ahcievment_id, user_id),
+	current INTEGER,
+	total INTEGER,
+	PRIMARY KEY (achievement_id, user_id),
 	FOREIGN KEY (user_id) REFERENCES users (id),
-	FOREIGN KEY (ahcievment_id) REFERENCES ahcievments (id)
+	FOREIGN KEY (achievement_id) REFERENCES achievements (id)
 )

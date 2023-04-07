@@ -1,6 +1,6 @@
 package http
 
-import "github.com/NAVVG/test/internal/usecase"
+import "github.com/NAVVG/RLT.Hack/internal/usecase"
 
 type User struct {
 	usecase usecase.User

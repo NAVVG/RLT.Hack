@@ -1,8 +1,8 @@
 package usecase
 
 import (
-	"github.com/NAVVG/test/internal/usecase/repo"
-	"github.com/NAVVG/test/pkg/logger"
+	"github.com/NAVVG/RLT.Hack/internal/usecase/repo"
+	"github.com/NAVVG/RLT.Hack/pkg/logger"
 )
 
 type Аchievement struct {

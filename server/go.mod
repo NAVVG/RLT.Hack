@@ -1,4 +1,4 @@
-module github.com/NAVVG/test
+module github.com/NAVVG/RLT.Hack
 
 go 1.20
 

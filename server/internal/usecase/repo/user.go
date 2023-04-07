@@ -3,8 +3,8 @@ package repo
 import (
 	"context"
 
-	"github.com/NAVVG/test/internal/entity"
-	"github.com/NAVVG/test/pkg/postgres"
+	"github.com/NAVVG/RLT.Hack/internal/entity"
+	"github.com/NAVVG/RLT.Hack/pkg/postgres"
 )
 
 type User struct {

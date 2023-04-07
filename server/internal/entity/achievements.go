@@ -8,6 +8,6 @@ type Achievement struct {
 }
 
 type AchievementProgress struct {
-	AchievementId int
-	UserId        int
+	Current int
+	Total   int
 }
